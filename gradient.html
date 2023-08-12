@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gradient</title>
+</head>
+<body>
+<p>Ми вивчаємо градієнти</p>
+<style type="text/css">
+	p{
+		font-size: 0.5in; 
+		color: #000;
+		background: linear-gradient(#00f, #0f0, #f0f, #fff, #f00, #0a1, #f00)
+	}
+	div{
+		width: 300px;
+		height: 300px;
+		text-align: center;
+		font-size: 50px;
+		margin: 20px;
+		float: left;
+	}
+</style>
+</head>
+</body>
+<div style="background: linear-gradient(yellow,blue);">Лінійний градієнт</div>
+<div style="background: linear-gradient(yellow,blue,red,pink);">Лінійний градієнт</div>
+<div style="background: linear-gradient(to left,yellow,blue);">Лінійний градієнт</div>
+<div style="background: linear-gradient(45deg,yellow,blue);">Лінійний градієнт</div>
+<div style="background: linear-gradient(225deg,yellow,blue);">Лінійний градієнт</div>
+<div style="background: linear-gradient(225deg,yellow 0% 50%,blue 90% 100%);">Лінійний градієнт</div>
+<div style="background: linear-gradient(blue 50%, yellow 50%); width: 450px;"></div>
+<div style="background: linear-gradient(red 0% 25%, darkblue 25% 50%, yellow 50% 75%, green 75% 100%); width: 450px;"></div>
+<div style="background: radial-gradient(yellow,blue);">Радіальний градієнт</div>
+<div style="background: radial-gradient(yellow 20%,blue 50%);">Радіальний градієнт</div>
+<div style="background: radial-gradient(yellow 20%,blue 50%); border-radius: 25%;">Радіальний градієнт</div>
+<div style="background: radial-gradient(circle at 255px 255px,yellow 20%,blue 50%); border-radius: 25%;">Радіальний градієнт</div>
+<div style="background: radial-gradient(circle at 75px 75px,yellow 20%,blue 50%); border-radius: 25%;">Радіальний градієнт</div>
+<div style="background: radial-gradient(circle at 0px 150px,yellow 20%,blue 50%); border-radius: 25%;">Радіальний градієнт</div>
+<div style="background: radial-gradient(circle at 75px 75px,yellow 0% 33%, blue 33% 66%, green 66% 100%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(yellow 0% 33%, blue 33% 55%, green 55% 100%); border-radius: 50%;"></div>
+<div style="background: conic-gradient(yellow,blue,red,pink);">Конічний градієнт</div>
+<div style="background: conic-gradient(from 45deg,yellow,blue,red,pink);">Конічний градієнт</div>
+<div style="background: conic-gradient(at 10% 20%,yellow,blue,red,pink);">Конічний градієнт</div>
+<div style="background: conic-gradient(yellow 0% 25%,blue 25% 50%,red 50% 75%,pink 75% 100%);">Конічний градієнт</div>
+<div style="background: repeating-linear-gradient(yellow 20px,blue 40px);">Лінійний градієнт</div>
+<div style="background: repeating-linear-gradient(45deg,yellow 0px 20px,blue 20px 40px);">Лінійний градієнт</div>
+<div style="background: repeating-radial-gradient(yellow 20px,blue 40px);">Радіальний градієнт</div>
+<div style="background: repeating-conic-gradient(yellow 20%,blue 40%);">Конічний градієнт</div>
+<div style="background: conic-gradient(from 45deg, red, orange 50%, yellow 85%, green);"></div>
+<div style="background:repeating-radial 
+  background: repeating-radial-gradient(
+    black,
+    black 5px,
+    white 5px,
+    white 10px
+  );">
+</html>
